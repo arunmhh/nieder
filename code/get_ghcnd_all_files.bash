@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
-tar tf data/ghcnd_all.tar.gz > data/ghcnd_all_files.txt
+echo "file name" > data/ghcnd_all_files.txt
+tar tf data/ghcnd_all.tar.gz | grep ".dly" >> data/ghcnd_all_files.txt
