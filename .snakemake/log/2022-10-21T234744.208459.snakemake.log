@@ -1,0 +1,6 @@
+Building DAG of jobs...
+MissingInputException in rule get_all_filenames in line 13 of /Volumes/Data/nieder/Snakefile:
+Missing input files for rule get_all_filenames:
+    output: data/ghcnd_all_files.txt
+    affected files:
+        data/ghcnd_all_tar.gz

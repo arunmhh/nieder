@@ -1,0 +1,2 @@
+SyntaxErrorin line 30 of /Volumes/Data/nieder/Snakefile:
+Command must be given as string after the shell keyword. (Snakefile, line 30)
